@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('https://i.ibb.co/CVDNtDS/ezgif-com-webp-to-jpg-2.jpg')",
+        hero: "url('https://i.ibb.co/2PZPRzP/banner.png')",
+        // hero: "url('https://i.ibb.co/CVDNtDS/ezgif-com-webp-to-jpg-2.jpg')",
       },
 
       colors: {

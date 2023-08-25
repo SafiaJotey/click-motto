@@ -1,4 +1,5 @@
 import React from 'react';
+import Gallery from '../components/Gallery';
 import Banner from '../components/ui/Banner';
 import Navbar from '../components/ui/Navbar';
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div className="container">
       <Navbar></Navbar>
       <Banner></Banner>
+      <Gallery></Gallery>
     </div>
   );
 };

@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="bg-hero pt-2 ">
       {' '}
-      <div className="bg-overlay  w-full py-[212px] flex justify-center items-center">
+      <div className="bg-overlay  w-full py-[200px] flex justify-center items-center">
         <div className="flex-col w-[75%] justify-center items-center">
           {' '}
           <h3 className="text-[22px] md:text-[44px] text-white text-center font-semibold">

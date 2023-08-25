@@ -1,5 +1,5 @@
 import React from 'react';
-import Gallery from '../components/Gallery';
+import Gallery from '../components/GallerySection';
 import Banner from '../components/ui/Banner';
 import Navbar from '../components/ui/Navbar';
 

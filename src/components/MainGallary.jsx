@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import { BiSolidDownArrow } from 'react-icons/bi';
 import GallaryItem1 from './ui/GallaryItem1';
@@ -58,10 +59,10 @@ const MainGallary = () => {
       <div className="flex flex-wrap justify-center md:justify-between md:items-center  text-menuColor font-semibold">
         <ul className="flex  items-center ">
           <li className=" mx-[10px] cursor-pointer ">
-            <a className="  text-[15px]  hover:text-dropDownHover  ">All</a>
+            <a href='#' className="  text-[15px]  hover:text-dropDownHover  ">All</a>
           </li>
           <li className="mx-[10px] cursor-pointer">
-            <a className="  text-[15px]  hover:text-dropDownHover ">Photos</a>
+            <a  href='#' className="  text-[15px]  hover:text-dropDownHover ">Photos</a>
           </li>
           <li className="mx-[10px] cursor-pointer">
             <a className="  text-[15px]  hover:text-dropDownHover ">Videos</a>

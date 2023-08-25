@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from 'react';
 
 import {
@@ -28,7 +29,7 @@ export default function Navbar() {
       <div className="flex items-center w-full justify-between">
         <div className=" cursor-pointer ">
           {' '}
-          <img src={logo} className="h-[14px]" />
+          <img src={logo} alt="" className="h-[14px]" />
         </div>
         <div>
           {' '}
@@ -66,13 +67,19 @@ export default function Navbar() {
             <div className="hidden md:flex space-x-4 border-r border-menuColor">
               <ul className="flex  items-center text-menuColor">
                 <li className=" mx-[10px] cursor-pointer ">
-                  <a className=" text-[15px]  hover:text-dropDownHover">Explore</a>
+                  <a className=" text-[15px]  hover:text-dropDownHover">
+                    Explore
+                  </a>
                 </li>
                 <li className="mx-[10px] cursor-pointer">
-                  <a className=" text-[15px]  hover:text-dropDownHover">Discover</a>
+                  <a className=" text-[15px]  hover:text-dropDownHover">
+                    Discover
+                  </a>
                 </li>
                 <li className="mx-[10px] cursor-pointer">
-                  <a className=" text-[15px]  hover:text-dropDownHover">For Professionals</a>
+                  <a className=" text-[15px]  hover:text-dropDownHover">
+                    For Professionals
+                  </a>
                 </li>
                 <li className="mx-[10px] cursor-pointer">
                   <BiDotsHorizontalRounded
@@ -83,38 +90,59 @@ export default function Navbar() {
                     <div className="absolute w-[218px] top-[45px] right-[15%] text-black bg-dropDown my-2  z-10">
                       <ul class=" text-[15px]  hover:text-dropDownHover  text-dropDownText">
                         <li className="hover:bg-dropDownHover p-2">
-                          <a href="#" className=" text-[15px]  hover:text-dropDownHover ">
+                          <a
+                            href="#"
+                            className=" text-[15px]  hover:text-dropDownHover "
+                          >
                             About Click Motto
                           </a>
                         </li>
 
                         <li className="hover:bg-dropDownHover p-2">
-                          <a href="#" className=" text-[15px]  hover:text-dropDownHover ">
+                          <a
+                            href="#"
+                            className=" text-[15px]  hover:text-dropDownHover "
+                          >
                             Pricing
                           </a>
                         </li>
                         <li className="hover:bg-dropDownHover p-2">
-                          <a href="#" className=" text-[15px]  hover:text-dropDownHover ">
+                          <a
+                            href="#"
+                            className=" text-[15px]  hover:text-dropDownHover "
+                          >
                             License
                           </a>
                         </li>
                         <li className="hover:bg-dropDownHover p-2">
-                          <a href="#" className=" text-[15px]  hover:text-dropDownHover ">
+                          <a
+                            href="#"
+                            className=" text-[15px]  hover:text-dropDownHover "
+                          >
                             Partnerships
                           </a>
                         </li>
                         <li className="hover:bg-dropDownHover p-2">
-                          <a href="#" className=" text-[15px]  hover:text-dropDownHover">
+                          <a
+                            href="#"
+                            className=" text-[15px]  hover:text-dropDownHover"
+                          >
                             Blog
                           </a>
                         </li>
                         <li className="hover:bg-dropDownHover p-2">
-                          <a href="#" className=" text-[15px]  hover:text-dropDownHover ">
+                          <a
+                            href="#"
+                            className=" text-[15px]  hover:text-dropDownHover "
+                          >
                             Help
                           </a>
                         </li>
                         <li className="border-b border-dropDownText hover:bg-dropDownHover p-2">
-                          <a href="#" className=" text-[15px]  hover:text-dropDownHover ">
+                          <a
+                            href="#"
+                            className=" text-[15px]  hover:text-dropDownHover "
+                          >
                             Join The Team
                           </a>
                         </li>
@@ -164,7 +192,9 @@ export default function Navbar() {
             <div className="hidden md:flex space-x-4 ">
               <ul className="flex  items-center text-[15px]  hover:text-dropDownHover text-menuColor">
                 <li className="mx-[10px] cursor-pointer">
-                  <a className=" text-[15px]  hover:text-dropDownHover">Login</a>
+                  <a className=" text-[15px]  hover:text-dropDownHover">
+                    Login
+                  </a>
                 </li>
                 <li className="mx-[10px]">
                   <button className="px-5 py-1 text-center bg-buttonColor border border-blue-600 text-white rounded-md">
@@ -201,32 +231,50 @@ export default function Navbar() {
                         </a>
                       </li>
                       <li className="hover:bg-dropDownHover p-2">
-                        <a href="#" className=" text-[15px]  hover:text-dropDownHover ">
+                        <a
+                          href="#"
+                          className=" text-[15px]  hover:text-dropDownHover "
+                        >
                           Pricing
                         </a>
                       </li>
                       <li className="hover:bg-dropDownHover p-2">
-                        <a href="#" className=" text-[15px]  hover:text-dropDownHover ">
+                        <a
+                          href="#"
+                          className=" text-[15px]  hover:text-dropDownHover "
+                        >
                           License
                         </a>
                       </li>
                       <li className="hover:bg-dropDownHover p-2">
-                        <a href="#" className=" text-[15px]  hover:text-dropDownHover ">
+                        <a
+                          href="#"
+                          className=" text-[15px]  hover:text-dropDownHover "
+                        >
                           Partnerships
                         </a>
                       </li>
                       <li className="hover:bg-dropDownHover p-2">
-                        <a href="#" className=" text-[15px]  hover:text-dropDownHover">
+                        <a
+                          href="#"
+                          className=" text-[15px]  hover:text-dropDownHover"
+                        >
                           Blog
                         </a>
                       </li>
                       <li className="hover:bg-dropDownHover p-2">
-                        <a href="#" className=" text-[15px]  hover:text-dropDownHover ">
+                        <a
+                          href="#"
+                          className=" text-[15px]  hover:text-dropDownHover "
+                        >
                           Help
                         </a>
                       </li>
                       <li className="border-b border-dropDownText hover:bg-dropDownHover p-2">
-                        <a href="#" className=" text-[15px]  hover:text-dropDownHover ">
+                        <a
+                          href="#"
+                          className=" text-[15px]  hover:text-dropDownHover "
+                        >
                           Join The Team
                         </a>
                       </li>

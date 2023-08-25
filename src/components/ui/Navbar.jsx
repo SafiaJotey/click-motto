@@ -24,14 +24,15 @@ export default function Navbar() {
   };
 
   return (
-    <nav className=" bg-main py-1 md:fixed md:w-full z-50 h-[56px] flex items-center">
-      <div className="container mx-auto">
-        <div className="flex items-center justify-between">
-          <div className=" cursor-pointer">
-            {' '}
-            <img src={logo} className="h-[14px]" />
-          </div>
-          <div className="md:hidden">
+    <nav className=" bg-main py-1  md:w-full h-[56px] flex items-center">
+      <div className="flex items-center w-full justify-between">
+        <div className=" cursor-pointer ">
+          {' '}
+          <img src={logo} className="h-[14px]" />
+        </div>
+        <div>
+          {' '}
+          <div className="md:hidden ">
             <button
               className="text-white focus:outline-none cursor-pointer"
               onClick={toggleNavbar}
@@ -61,7 +62,7 @@ export default function Navbar() {
               </svg>
             </button>
           </div>
-          <div className="hidden md:flex space-x-4">
+          <div className="hidden md:flex space-x-4 ">
             <div className="hidden md:flex space-x-4 border-r border-menuColor">
               <ul className="flex  items-center text-menuColor">
                 <li className=" mx-[10px] cursor-pointer ">

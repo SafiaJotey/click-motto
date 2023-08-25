@@ -223,58 +223,40 @@ export default function Navbar() {
                   onClick={handleDropDown}
                 />
                 {isDown && (
-                  <div className="absolute w-[108px] top-[10px] left-[60%] md:w-[218px] md:top-[45px] md:right-[15%] text-black bg-dropDown my-2 z-10">
+                  <div className="absolute w-[148px] top-[10px] left-[60%] md:w-[218px] md:top-[45px] md:right-[15%] text-black bg-dropDown my-2 z-10">
                     <ul className=" text-dropDownText">
-                      <li className="hover:bg-dropDownHover p-2">
-                        <a href="#" className="text-[15px]">
+                      <li className="hover:bg-dropDownHover hover:text-recommandedHoverColor p-2">
+                        <a href="#" className="text-[15px]  ">
                           About Click Motto
                         </a>
                       </li>
-                      <li className="hover:bg-dropDownHover p-2">
-                        <a
-                          href="#"
-                          className=" text-[15px]  hover:text-dropDownHover "
-                        >
+                      <li className="hover:bg-dropDownHover  hover:text-recommandedHoverColor p-2">
+                        <a href="#" className=" text-[15px]  ">
                           Pricing
                         </a>
                       </li>
-                      <li className="hover:bg-dropDownHover p-2">
-                        <a
-                          href="#"
-                          className=" text-[15px]  hover:text-dropDownHover "
-                        >
+                      <li className="hover:bg-dropDownHover  hover:text-recommandedHoverColor p-2">
+                        <a href="#" className=" text-[15px] ">
                           License
                         </a>
                       </li>
-                      <li className="hover:bg-dropDownHover p-2">
-                        <a
-                          href="#"
-                          className=" text-[15px]  hover:text-dropDownHover "
-                        >
+                      <li className="hover:bg-dropDownHover  hover:text-recommandedHoverColor p-2">
+                        <a href="#" className=" text-[15px]  ">
                           Partnerships
                         </a>
                       </li>
-                      <li className="hover:bg-dropDownHover p-2">
-                        <a
-                          href="#"
-                          className=" text-[15px]  hover:text-dropDownHover"
-                        >
+                      <li className="hover:bg-dropDownHover  hover:text-recommandedHoverColor p-2">
+                        <a href="#" className=" text-[15px] ">
                           Blog
                         </a>
                       </li>
-                      <li className="hover:bg-dropDownHover p-2">
-                        <a
-                          href="#"
-                          className=" text-[15px]  hover:text-dropDownHover "
-                        >
+                      <li className="hover:bg-dropDownHover  hover:text-recommandedHoverColor p-2">
+                        <a href="#" className=" text-[15px] ">
                           Help
                         </a>
                       </li>
-                      <li className="border-b border-dropDownText hover:bg-dropDownHover p-2">
-                        <a
-                          href="#"
-                          className=" text-[15px]  hover:text-dropDownHover "
-                        >
+                      <li className="border-b border-dropDownText hover:bg-dropDownHover  hover:text-recommandedHoverColor p-2">
+                        <a href="#" className=" text-[15px] ">
                           Join The Team
                         </a>
                       </li>
@@ -316,10 +298,6 @@ export default function Navbar() {
                     </ul>
                   </div>
                 )}
-              </li>
-
-              <li className="py-2 border-b border-menuColor">
-                <a className="text-menuColor">Join The Team</a>
               </li>
             </ul>
 

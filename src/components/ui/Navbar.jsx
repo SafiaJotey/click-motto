@@ -88,11 +88,11 @@ export default function Navbar() {
                   ></BiDotsHorizontalRounded>
                   {isDown && (
                     <div className="absolute w-[218px] top-[45px] right-[15%] text-black bg-dropDown my-2  z-10">
-                      <ul class=" text-[15px]  hover:text-dropDownHover  text-dropDownText">
+                      <ul class=" text-[15px]   text-dropDownText">
                         <li className="hover:bg-dropDownHover p-2">
                           <a
                             href="#"
-                            className=" text-[15px]  hover:text-dropDownHover "
+                            className=" text-[15px]  hover:text-recommandedHoverColor "
                           >
                             About Click Motto
                           </a>
@@ -101,7 +101,7 @@ export default function Navbar() {
                         <li className="hover:bg-dropDownHover p-2">
                           <a
                             href="#"
-                            className=" text-[15px]  hover:text-dropDownHover "
+                            className=" text-[15px]  hover:text-recommandedHoverColor "
                           >
                             Pricing
                           </a>
@@ -109,7 +109,7 @@ export default function Navbar() {
                         <li className="hover:bg-dropDownHover p-2">
                           <a
                             href="#"
-                            className=" text-[15px]  hover:text-dropDownHover "
+                            className=" text-[15px]  hover:text-recommandedHoverColor"
                           >
                             License
                           </a>
@@ -117,7 +117,7 @@ export default function Navbar() {
                         <li className="hover:bg-dropDownHover p-2">
                           <a
                             href="#"
-                            className=" text-[15px]  hover:text-dropDownHover "
+                            className=" text-[15px]  hover:text-recommandedHoverColor "
                           >
                             Partnerships
                           </a>
@@ -125,7 +125,7 @@ export default function Navbar() {
                         <li className="hover:bg-dropDownHover p-2">
                           <a
                             href="#"
-                            className=" text-[15px]  hover:text-dropDownHover"
+                            className=" text-[15px]  hover:text-recommandedHoverColor"
                           >
                             Blog
                           </a>
@@ -133,7 +133,7 @@ export default function Navbar() {
                         <li className="hover:bg-dropDownHover p-2">
                           <a
                             href="#"
-                            className=" text-[15px]  hover:text-dropDownHover "
+                            className=" text-[15px]  hover:text-recommandedHoverColor "
                           >
                             Help
                           </a>
@@ -141,7 +141,7 @@ export default function Navbar() {
                         <li className="border-b border-dropDownText hover:bg-dropDownHover p-2">
                           <a
                             href="#"
-                            className=" text-[15px]  hover:text-dropDownHover "
+                            className=" text-[15px]  hover:text-recommandedHoverColor"
                           >
                             Join The Team
                           </a>

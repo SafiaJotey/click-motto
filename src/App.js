@@ -1,11 +1,12 @@
 import React from 'react';
+import Home from './pages/Home';
 
-function App() {
+const App = () => {
   return (
-    <div className="bg-gray-200 p-4">
-      <h1 className="text-5xl font-bold">My App</h1>
+    <div>
+      <Home />
     </div>
   );
-}
+};
 
 export default App;
